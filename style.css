@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nanum+Myeongjo&display=swap');
+
+:root{
+--base-color: #219EBC;
+--accent-color: #023047;
+--background-color: #caf0f8;
+
+--base-font: 'Times New Roman', Times, serif;
+--accent-font: 'Dancing Script', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--base-font);
+    color: var(--accent-color)
+}
+
+h1, h2, h3, footer{
+    font-family: var(--accent-font);
+    color: var(--base-color);
+}
+
+.img-round{
+    width: 30vh;
+    height: 30vh;
+
+    border-radius: 100%;
+}
+
+header, main, footer{
+    display: flex;
+
+    padding: 1.15em;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 2.2em;
+}
+
+main{
+    padding: 0.1em;
+}
+
+p{
+font-size: 1.3em;
+}
+
+h2{
+    padding: 1.15em;
+}
+
+main{
+    font-size: 1.15em;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 0.5em
+}
+
+a{
+    color:var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--base-color)
+}
+
+.some-icons{
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 2.2em;
+
+    flex-direction: row;
+    gap: 1em;
+}
+
+body{
+    background-color: var(--background-color);
+}
